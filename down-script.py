@@ -4,6 +4,8 @@ import os
 
 
 tag = input("Enter tag : ")
+tag = tag.split(" ")
+tag = "%20".join(tag)
 link = "http://weheartit.com/tag/"+tag
 print(link+"\n")
 # Get links of entries
