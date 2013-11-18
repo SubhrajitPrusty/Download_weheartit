@@ -47,7 +47,7 @@ for x in range(c):
 		
 		for x in n:
 			l = x.get("src")
-			if l.endswith("large.jpg"):
+			if l.endswith("large.jpg") or l.endswith("large.png"):
 				s.add(l)
 
 s = list(s)
