@@ -1,7 +1,7 @@
-Download_weheartit
+Download WeHeartIt
 ==================
 
-Downloads Images from weheartit.com by searching for given tags.
+Downloads Images from image sharing website weheartit.com by searching for given tags.
 
 * Uses BeautifulSoup 4 and wget.
 
